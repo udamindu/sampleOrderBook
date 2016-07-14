@@ -1,0 +1,47 @@
+﻿Build started 7/14/2016 3:00:39 PM.
+     1>Project "E:\temporary desktop\OrderBook#1\OrderBook\OrderBook.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\OrderBook.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing orderbook.h...
+         Uic'ing orderbook.ui...
+         '"C:\Newfolder1\5.4\msvc2010_opengl\bin\uic.exe"' is not recognized as an internal or external command,
+         operable program or batch file.
+         Rcc'ing orderbook.qrc...
+     1>RCC : warning : No resources in 'E:\temporary desktop\OrderBook#1\OrderBook\orderbook.qrc'.
+         
+         Moc'ing mydelegate.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /IGeneratedFiles /I. /IGeneratedFiles\Debug /IC:\newfolder1\5.4\msvc2010_opengl\include /IC:\newfolder1\5.4\msvc2010_opengl\include\QtWidgets /IC:\newfolder1\5.4\msvc2010_opengl\include\QtGui /IC:\newfolder1\5.4\msvc2010_opengl\include\QtCore /IGeneratedFiles\debug /IGeneratedFiles /I"C:\newfolder1\5.4\msvc2010_opengl\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_WIDGETS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mydelegate.cpp GeneratedFiles\Debug\moc_orderbook.cpp main.cpp mydelegate.cpp order.cpp orderbook.cpp -Zm200 -w34100 -w34189 
+         moc_mydelegate.cpp
+         moc_orderbook.cpp
+         main.cpp
+         mydelegate.cpp
+     1>mydelegate.cpp(14): warning C4100: 'index' : unreferenced formal parameter
+     1>mydelegate.cpp(13): warning C4100: 'option' : unreferenced formal parameter
+     1>mydelegate.cpp(49): warning C4100: 'index' : unreferenced formal parameter
+         order.cpp
+         orderbook.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /IGeneratedFiles /I. /IGeneratedFiles\Debug /IC:\newfolder1\5.4\msvc2010_opengl\include /IC:\newfolder1\5.4\msvc2010_opengl\include\QtWidgets /IC:\newfolder1\5.4\msvc2010_opengl\include\QtGui /IC:\newfolder1\5.4\msvc2010_opengl\include\QtCore /IGeneratedFiles\debug /IGeneratedFiles /I"C:\newfolder1\5.4\msvc2010_opengl\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_WIDGETS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_orderbook.cpp -Zm200 -w34100 -w34189 
+         qrc_orderbook.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\\OrderBook.exe" /NOLOGO /LIBPATH:C:\newfolder1\5.4\msvc2010_opengl\lib /LIBPATH:C:\Newfolder1\5.4\msvc2010_opengl\lib /LIBPATH:C:\Newfolder1\5.4\msvc2010_opengl\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\newfolder1\5.4\msvc2010_opengl\lib\qtmaind.lib shell32.lib C:\Newfolder1\5.4\msvc2010_opengl\lib\Qt5Cored.lib C:\newfolder1\5.4\msvc2010_opengl\lib\Qt5Widgetsd.lib C:\newfolder1\5.4\msvc2010_opengl\lib\Qt5Guid.lib C:\newfolder1\5.4\msvc2010_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\OrderBook.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\temporary desktop\OrderBook#1\OrderBook\Win32\Debug\OrderBook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\moc_mydelegate.obj
+         Win32\Debug\moc_orderbook.obj
+         Win32\Debug\qrc_orderbook.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mydelegate.obj
+         Win32\Debug\order.obj
+         Win32\Debug\orderbook.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : Win32\Debug\\OrderBook.exe not found or not built by the last incremental link; performing full link
+         OrderBook.vcxproj -> E:\temporary desktop\OrderBook#1\OrderBook\Win32\Debug\OrderBook.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Win32\Debug\\OrderBook.exe;#1" /manifest Win32\Debug\OrderBook.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\OrderBook.unsuccessfulbuild".
+         Touching "Win32\Debug\OrderBook.lastbuildstate".
+     1>Done Building Project "E:\temporary desktop\OrderBook#1\OrderBook\OrderBook.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.69
